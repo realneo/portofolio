@@ -3,25 +3,151 @@
   font-family: 'RawengulkLight';
   src: url("../fonts/RawengulkLight.ttf");
 }
+@font-face {
+  font-family: 'RawengulkRegular';
+  src: url("../fonts/RawengulkRegular.ttf");
+}
+
+/* FONT ----------------------------------------------------------*/
+.font12{font-size:12px}
+.font13{font-size:13px}
+.font14{font-size:14px}
+.font15{font-size:15px}
+.font16{font-size:16px}
+.font17{font-size:17px}
+.font18{font-size:18px}
+.font19{font-size:19px}
+.font20{font-size:20px}
+.font21{font-size:21px}
+.font22{font-size:22px}
+.font23{font-size:23px}
+.font24{font-size:24px}
+.font25{font-size:25px}
+.font26{font-size:26px}
+.font27{font-size:27px}
+.font28{font-size:28px}
+.font29{font-size:29px}
+.font30{font-size:30px}
+.font31{font-size:31px}
+.font32{font-size:32px}
+.font33{font-size:33px}
+.font34{font-size:34px}
+.font35{font-size:35px}
+.font36{font-size:36px}
+.font37{font-size:37px}
+.font38{font-size:38px}
+.font39{font-size:39px}
+.font40{font-size:40px}
+.font41{font-size:41px}
+.font42{font-size:42px}
+.font43{font-size:43px}
+.font44{font-size:44px}
+.font45{font-size:45px}
+.font46{font-size:46px}
+.font47{font-size:47px}
+.font48{font-size:48px}
+.font49{font-size:49px}
+.font50{font-size:50px}
+.font51{font-size:51px}
+.font52{font-size:52px}
+.font53{font-size:53px}
+.font54{font-size:54px}
+.font55{font-size:55px}
+.font56{font-size:56px}
+.font57{font-size:57px}
+.font58{font-size:58px}
+.font59{font-size:59px}
+.font60{font-size:60px}
+.font61{font-size:61px}
+.font62{font-size:62px}
+.font63{font-size:63px}
+.font64{font-size:64px}
+.font65{font-size:65px}
+.font66{font-size:66px}
+.font67{font-size:67px}
+.font68{font-size:68px}
+.font69{font-size:69px}
+.font70{font-size:70px}
+
 
 /* CLASSES ----------------------------------------------------------*/
 .RawengulkLight{
     font-family: RawengulkLight, Futura, Helvetica, Arial, sans-serif;
 }
-
-
-
-/* line 7, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
-h2 {
-  font-family: BrandonText-Regular, Futura, Helvetica, Arial, sans-serif;
-  font-size: 1.4em;
-  text-align: center;
-  color: #333a3e;
+.RawengulkRegular{
+    font-family: RawengulkRegular, Futura, Helvetica, Arial, sans-serif;
 }
+
+/* LAYOUTS --------------------------------------------------------*/
+.content_960 {
+  position: relative;
+  width:960px;
+  margin: 0px auto;
+}
+
+.content_fluid{
+    position:relative;
+    width:100%;
+    height:100%;
+}
+
+.half_cream{
+    position: absolute;
+    top:50%;
+    background-color:#F3F3F3;
+    height:100%;
+    width:100%;
+}
+
+/* WHO WE ARE  ******************************************************/
+.window:nth-child(2) * {
+  text-align: center;
+}
+
+.window:nth-child(2) .content {
+  margin-top:200px;
+}
+
+/* END *************************************************************/
+
+/* WHAT WE DO  ******************************************************/
+
+.window:nth-child(3) {
+  background: #F3F3F3;
+  top: 200%;
+}
+.window:nth-child(3) * {
+  text-align: center;
+  color:#000;
+}
+.window:nth-child(3) ul {
+  list-style: none;
+}
+.window:nth-child(3) li{
+  float:left;
+  padding:20px;
+}
+
+/* END *************************************************************/
+
+/* HIRE US  ********************************************************/
+/* line 18, ../scss/main.scss */
+.window:nth-child(4) {
+  background: #F3F3F3;
+  top: 300%;
+}
+.window:nth-child(4) * {
+    text-align: center;
+    color:#000;
+}
+
+
+
+/* END *************************************************************/
 
 /* line 13, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
 p {
-  font-family: BrandonText-Regular, Futura, Helvetica, Arial, sans-serif;
+  font-family: RawengulkRegular, Futura, Helvetica, Arial, sans-serif;
   color: #333a3e;
   font-size: 1.4em;
 }
@@ -58,60 +184,6 @@ pre {
   padding: 0 30px;
 }
 
-/* line 49, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
-.window:nth-child(2) .content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -180px;
-  margin-left: -160px;
-}
-/* line 55, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
-.window:nth-child(2) .content h2 {
-  color: #d5d7dd;
-  text-align: left;
-}
-/* line 58, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
-.window:nth-child(2) .content h2 .highlight {
-  color: white;
-}
-
-/* line 67, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
-.window:nth-child(3) ul {
-  list-style-type: none;
-}
-/* line 68, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
-.window:nth-child(3) .content {
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  margin-top: -230px;
-}
-/* line 73, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
-.window:nth-child(3) .content h2 {
-  text-align: center;
-  font-size: 3.0em;
-}
-/* line 77, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
-.window:nth-child(3) .content .explanation {
-  font-family: BrandonText-Regular, Futura, Helvetica, Arial, sans-serif;
-  color: #333a3e;
-  font-size: 1.4em;
-  text-align: center;
-  padding: 0 15%;
-}
-/* line 83, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
-.window:nth-child(3) .content .explanation li {
-  color: #d5d7dd;
-}
-
-/* line 92, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
-.window:nth-child(4) pre {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin: -220px 0 0 -450px;
-}
 
 /* line 102, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
 .window:nth-child(5) .content {
@@ -283,18 +355,6 @@ html, body {
 }
 
 /* line 18, ../scss/main.scss */
-.window:nth-child(3) {
-  background: #6ab29f;
-  top: 200%;
-}
-
-/* line 18, ../scss/main.scss */
-.window:nth-child(4) {
-  background: #333a3e;
-  top: 300%;
-}
-
-/* line 18, ../scss/main.scss */
 .window:nth-child(5) {
   background: #d0482b;
   top: 400%;
@@ -321,7 +381,7 @@ html, body {
     left:0px;
     top:0px;
 }
-#top_bar img, p , a{
+#top_bar img{
     padding:25px;
 }
 #logo_text{
@@ -338,7 +398,7 @@ html, body {
     color:#fff; 
     background-color:#333;
     top:0px;
-    padding:30px 15px;
+    padding:30.5px 15px;
 }
 #top_menu{
     top:0px;
@@ -352,6 +412,15 @@ html, body {
     overflow: hidden;
     float:left;
     cursor: pointer;
+}
+.top_menu p{
+    top:20px;
+    color:#fff;
+    font-size:18px;
+    position: absolute;
+    width:100px;
+    text-align: center;
+    display:none;
 }
 
 /* COLORS ---------------------------------------------------------- */
@@ -378,4 +447,69 @@ html, body {
 }
 .lighter_blue_bg{
     background-color:#7DD3DB;
+}
+
+.white{color:#fff;}
+
+a{
+    text-decoration: none;
+    color:#000;
+}
+h1{
+    font-size: 60px;
+    color:#fff;
+}
+
+.right_side{
+    width:50%;
+    float:right;
+}
+.left_side{
+    width:50%;
+    float:left;    
+}
+.btn{
+    background:none;
+    border:1px solid #000;
+    padding:10px 20px;
+}
+#up_btn{
+    position:absolute;
+    bottom:0px;
+    right:10px;
+    color:#000;
+    padding:10px;
+    border:1px solid #fff;
+}
+/* PERSONAL STATS *********************************/
+.personal_stats{
+    position: relative;
+    width:1500px;
+    margin:0px auto;
+    margin-top:60px;
+}
+
+.ps_outer_box{
+    position:relative;
+    width:250px;
+    height:250px;
+    overflow: hidden;
+    float:left;
+}
+
+.ps_inner_box{
+    position:absolute;
+    width:250px;
+    height:500px;
+}
+.ps_inner_box_icon{
+    position:absolute;
+    width:250px;
+    height:250px;
+}
+.ps_inner_box_stat{
+    position:absolute;
+    width:250px;
+    height:250px;
+    top:250px;
 }
