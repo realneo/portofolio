@@ -484,14 +484,14 @@ h1{
 /* PERSONAL STATS *********************************/
 .personal_stats{
     position: relative;
-    width:1500px;
+    width:100%;
     margin:0px auto;
     margin-top:60px;
 }
 
 .ps_outer_box{
     position:relative;
-    width:250px;
+    width:16.667%;
     height:250px;
     overflow: hidden;
     float:left;
